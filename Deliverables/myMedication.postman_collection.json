@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "ef9dfb43-eb83-41e8-9ff2-de0b43e8fa88",
+		"name": "myMedication",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://hook.integromat.com/bdu3mqrhcqyxpv9vf8ewp3ooynbqtpt5",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"drugs\":\"Ibuprofen\"\n}"
+				},
+				"url": {
+					"raw": "https://hook.integromat.com/bdu3mqrhcqyxpv9vf8ewp3ooynbqtpt5",
+					"protocol": "https",
+					"host": [
+						"hook",
+						"integromat",
+						"com"
+					],
+					"path": [
+						"bdu3mqrhcqyxpv9vf8ewp3ooynbqtpt5"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				},
+				"description": "add myMedication"
+			},
+			"response": []
+		},
+		{
+			"name": "https://hook.integromat.com/srxj3e32nbr4wda3442fuqv5j3d1z3ks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://hook.integromat.com/srxj3e32nbr4wda3442fuqv5j3d1z3ks",
+					"protocol": "https",
+					"host": [
+						"hook",
+						"integromat",
+						"com"
+					],
+					"path": [
+						"srxj3e32nbr4wda3442fuqv5j3d1z3ks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://hook.integromat.com/6uf91j5w9dc7aju2d8vhe8sm0rzajivp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"firstname\": \"Peter\",\n \"lastname\": \"Muster\",\n \"address\": \"Strasse 1\",\n \"ZIPCode\": \"4055\",\n \"City\": \"Basel\",\n \"eMail\": \"jale.vallone@students.fhnw.ch\",\n \"Password\": \"Password\"\n}"
+				},
+				"url": {
+					"raw": "https://hook.integromat.com/6uf91j5w9dc7aju2d8vhe8sm0rzajivp",
+					"protocol": "https",
+					"host": [
+						"hook",
+						"integromat",
+						"com"
+					],
+					"path": [
+						"6uf91j5w9dc7aju2d8vhe8sm0rzajivp"
+					]
+				},
+				"description": "Login"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
